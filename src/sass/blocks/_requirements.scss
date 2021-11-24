@@ -4,7 +4,6 @@
         padding: 65px 0;
         display: flex;
         flex-direction: column;
-        // justify-content: center;
         align-items: center;
     }
     &__content {
@@ -20,13 +19,10 @@
     max-width: 50%;
     &:nth-child(2n) {
         padding-left: 12px;
-        // padding-right: -2px;
     }
     &:nth-child(2) {
         margin-right: 17px;
-        // padding-right: -2px;
     }
-    // background-color: red;
     h3 {
         color: $main_color;
         padding-left: 7px;
@@ -43,7 +39,6 @@
         li {
             letter-spacing: -0.2px;
             font-size: 17px;
-            // padding-bottom: 10px;
             position: relative;
             line-height: 28px;
             &:before {
@@ -54,7 +49,6 @@
                 width: 21px;
                 height: 20px;
                 border-radius: 100%;
-                // background-color: $main_color;
                 left: -32px;
             }
         }
