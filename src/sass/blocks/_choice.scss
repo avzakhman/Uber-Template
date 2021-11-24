@@ -1,0 +1,54 @@
+.choice {
+    position: relative;
+    min-height: 898px;
+    min-width: 1140px;
+    background: url('../../img/bcgrnd02.png') center/ cover no-repeat;
+    &__black {
+        z-index: 0;
+        width: 100%;
+        position: absolute;
+        height: 502px;
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    &__halfcircle {
+        position: relative;
+        margin-top: 45px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    &__logo {
+        max-width: 100%;
+        position: absolute;
+        top: 32px;
+    }
+    &__content {
+        padding-top: 56px;
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    &__description {
+        line-height: 24px;
+        text-align: center;
+        position: absolute;
+        font-size: 17px;
+        top: 709px;
+        font-weight: 300;
+    }
+    &__car {
+        position: absolute;
+        top: 135px;
+        max-width: 100%;
+        // height: auto;
+        // left: 50%;
+        // transform: translateX(-50%);
+    }
+}
